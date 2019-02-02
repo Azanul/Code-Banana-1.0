@@ -1,0 +1,38 @@
+Fibonacci series  has been a very interesting series whatsoever , which means the next term will be the sum of present term and the previous term , starting with t0=0;
+
+A great observation is that as every element of a fibonacci series is sum of some terms , any integer can be expressed as a sum of some minimum fibonacci terms .
+
+Is it not a good idea to solve that sequence . as you have two hours of time for the test,why not spend 25-30 minutes for this algorithm ?? 
+
+Given any integer as a input , represent that integer as a sum of fibonacci series.
+
+ 
+
+INPUT
+
+The first line of the input contains an integer T denoting the number of test cases.
+
+each test-case is described with one integer N, the integer you want to represent as a sum of fibonacci terms.
+
+ 
+
+OUTPUT
+
+For each test case, output a single line containing all the terms/answer to the test-case separated by a space.
+
+ 
+
+CONSTRAINTS
+
+0<T<100
+
+1<=N<=10000
+
+SAMPLE INPUT 		SAMPLE OUTPUT 
+2			        7 1
+14			        5
+5
+
+Explanation:
+enter the number that you want represent as a sum of fibonacci series:  14
+ can be expressed as f[7]=13  f[1]=1 , where f[N] implies fibonacci term N .
